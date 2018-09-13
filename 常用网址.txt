@@ -1,0 +1,23 @@
+https://www.bootcdn.cn/  
+file:///C:/Users/lenovo/Desktop/OA-1-网页前端CSS书写规范.pdf
+www.iconfont.cn   阿里巴巴矢量图
+http://peise.net/   配色
+www.sj33.cn  设计之家
+http://www.sj33.cn/digital/wysj/201210/32424_4.html   设计之家的35个漂亮的国外网页设计
+http://192.168.0.240:9980  本地gitleb
+http://demo.cssmoban.com/cssthemes5/twts_105_gusto/index.html  实训模仿网页
+https://forum.vuejs.org/  vuejs官方论坛
+https://www.cnblogs.com/my--sunshine/p/7093412.html  git常用命令的总结
+https://www.cnblogs.com/allanli/p/git_commands.html  git常用命令
+
+git clone  地址  下载
+npm  i nodeppt -g  ppt
+node -v  检测node环境
+git  add  index.html 提交项目里的文件
+git  commit  -m  “备注”  添加到本地服务器
+git config--global  user.email  “设置邮件”
+git config --global  user.name "这是名字"
+git  push  上传到github里
+
+github  用户HappyGrils 密码Xq123456789
+妙味  用户13129935697   密码Xq123456789

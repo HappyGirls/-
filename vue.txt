@@ -1,0 +1,63 @@
+Es6 node.js  npm技术
+Vue 
+vue-cli 脚手架
+		npm install -g vue-cli 安装cli
+		vue -V 查看vue的版本
+		vue init webpack （vue名字） 创建本地文件夹
+		Project name  工程名字
+		project description  工程描述
+		Author 工程作者
+		vue-router  yes
+		setup unit tests with  no
+		npm run dev  相当于启动应用
+	生成目录结构
+		package.json 整个项目的配置和信息描述
+			“scripts”自己定制的一些脚本 就是用node跑一些js文件
+		src文件夹 项目的所有源码都在src文件夹里
+			main.js是我们的项目入口文件
+			app.vue是我们整个组件的入口
+			
+	本地开发调试
+	代码部署
+	热加载
+	
+	
+	
+Vue-router 管理视图
+Vuex 状态管理
+axios 数据请求
+
+
+
+vue 基础
+	文本  “Mustache”语法(双大括号)   {{ msg }}
+		msg值发生改变时 内容会随之更新
+		v-once指令 可以使之执行一次地插值
+	原始html v-html指令  可以在网页上插入html代码
+	可以使用JavaScript表达式   {{ number + 1}}  这是语句 不是表达式
+		{{ ok ？ "yes" : "no"}} 流控制也不会生效，请使用三元表达式
+	指令都是带有v-前缀的特殊特性，而一个指令能后接受一个“参数”
+	v-bind指令 属性绑定 可以用于响应式地更新Html特性   v-bind：href=“url” 缩写:href
+	v-on 用于监听DOM事件 v-on：click =“doSomething” 参数是监听的事件名。  缩写是@:click
+	v-model 数据的双向绑定
+	computed是一个计算属性
+	watch 监听器
+	methods 运用函数
+	v-if  当等于false是 对象直接删除
+	v-show  当等于false时 对象是display：none
+	v-for 循环 v-for="(item,index) of list" :key="index" 防止重复出现
+
+	todolist功能开发
+	定义组件
+		//全局组件  component定义组件 template建立模板
+		Vue.component('组件名',{
+			template:'html模板内容  <li>item</li>'
+		})
+		//局部组件  但是得在vue里定义组件用components{组件名}
+		var TodoItem ={
+			template:'html模板内容  <li>item</li>'
+		}
+		在vue里面 每一个组件就是一个vue实例 而每一个vue项目都是一个个的vue实例组成 
+	删除功能
+		
+		
